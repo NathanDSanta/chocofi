@@ -1,0 +1,20 @@
+# If this is the firmware for the left half
+if SHIELD_NATHAN_CHOCOFI_LEFT
+
+  # Set name
+  config ZMK_KEYBOARD_NAME
+    default "Nathan-Kb"
+
+  # Set role to central
+  config ZMK_SPLIT_ROLE_CENTRAL
+    default y  
+
+endif
+
+# If any of the parts (this runs for both halves of the keyboard)
+if SHIELD_NATHAN_CHOCOFI_LEFT || SHIELD_NATHAN_CHOCOFI_RIGTH
+
+  config ZMK_SPLIT
+    default y
+endif
+

@@ -1,0 +1,6 @@
+# Left Half
+config SHIELD_NATHAN_CHOCOFI_LEFT
+  def_bool $(shields_list_contains,nathan_chocofi_left)
+# Right Half
+config SHIELD_NATHAN_CHOCOFI_RIGHT
+  def_bool $(shields_list_contains,nathan_chocofi_right)
