@@ -2,5 +2,5 @@
 config SHIELD_CHOCOFI_LEFT
   def_bool $(shields_list_contains,chocofi_left)
 # Right Half
-config SHIELD_NATHAN_CHOCOFI_RIGHT
+config SHIELD_CHOCOFI_RIGHT
   def_bool $(shields_list_contains,chocofi_right)
