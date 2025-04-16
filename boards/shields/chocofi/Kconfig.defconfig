@@ -12,7 +12,7 @@ if SHIELD_CHOCOFI_LEFT
 endif
 
 # If any of the parts (this runs for both halves of the keyboard)
-if SHIELD_CHOCOFI_LEFT || SHIELD_CHOCOFI_RIGTH
+if SHIELD_CHOCOFI_LEFT || SHIELD_CHOCOFI_RIGHT
 
   config ZMK_SPLIT
     default y
