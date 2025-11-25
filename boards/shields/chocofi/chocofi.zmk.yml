@@ -2,7 +2,7 @@ file_format: "1"
 id: chocofi
 name: Chocofi
 type: shield
-url: https://github.com/NathanDSanta/zmk-config-NathanKb/
+url: https://github.com/NathanDSanta/zmk-config
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
