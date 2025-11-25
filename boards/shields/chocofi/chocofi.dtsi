@@ -7,7 +7,7 @@
 
 &foostan_corne_5col_layout {
   transform = <&default_transform>;
-  kscan = &kscan0;
+  kscan = <&kscan0>;
 };
 
 // Row pins definition for both halves
